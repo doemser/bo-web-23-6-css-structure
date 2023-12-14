@@ -1,18 +1,14 @@
-@import "global.css";
 @import "../components/card.css";
 
-h1 {
-  color: var(--primary-color); /*!important; */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-/* .title {
-  color: purple;
-} */
-
-/* #headline {
-  color: green;
-} */
-
-/* h1 {
-  color: blue;
-} */
+:root {
+  --primary-color: red;
+  --secondary-color: #10ac84;
+  --common-black: black;
+  --common-white: white;
+}

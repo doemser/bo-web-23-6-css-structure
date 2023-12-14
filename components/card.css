@@ -1,27 +1,23 @@
 .card {
-  padding: 30px;
-  margin: 30px;
-  border-radius: 5px;
-  border: solid 2px var(--primary-color);
-  width: 430px;
+  width: 200px;
+  height: 100px;
+  border: 2px solid var(--common-black);
 }
 
-.highlight {
-  color: var(--primary-color);
-  font-size: 1.5rem;
+.card--groceries {
+  border: 2px solid var(--primary-color);
 }
 
-.definition {
-  max-width: 300px;
-  border: dashed 2px var(--primary-color);
-  border-radius: 5px;
-  padding: 10px;
+.card_headline {
+  color: var(--secondary-color);
 }
 
-.tag {
-  background-color: var(--tertiary-color);
-  color: var(--background-color);
-  padding: 10px;
-  margin: 10px;
-  border-radius: 5px;
+.card_button {
+  border: none;
+  background: var(--common-black);
+  color: var(--common-white);
+}
+
+.card_button--active {
+  background: var(--primary-color);
 }

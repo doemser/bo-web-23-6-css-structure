@@ -9,41 +9,43 @@
     <title>css-structure: demo-end</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="flex">
-    <h1 class="title" id="headline">CSS Structure Demo</h1>
-    <section class="card flex">
-      <p>
-        <span class="highlight">C</span>ascading
-        <span class="highlight">S</span>tyle
-        <span class="highlight">S</span>heets
-      </p>
-      <p class="definition">
-        CSS is based on an algorithm that determines how styles are applied to
-        HTML elements. CSS Styles cascade down to HTML elements based on three
-        factors:
-      </p>
-      <div>
-        <span class="tag">Specificity</span>
-        <span class="tag">Order</span>
-        <span class="tag">Inheritance</span>
-      </div>
-    </section>
-    <section class="card flex">
-      <p>
-        <span class="highlight">H</span>yper <span class="highlight">T</span>ext
-        <span class="highlight">M</span>arkup
-        <span class="highlight">L</span>anguage
-      </p>
-      <p class="definition">
-        HTML defines the content and layout of web pages. HTML documents are
-        composed using elements that represent different parts of the page, and
-        these elements interact based on three key factors:
-      </p>
-      <div>
-        <span class="tag">Hierarchy</span>
-        <span class="tag">Attributes</span>
-        <span class="tag">Relationships</span>
-      </div>
-    </section>
+  <body>
+    <h1>CSS Structure</h1>
+
+    <article class="card card--groceries">
+      <h2 class="card_headline">Card Title 1</h2>
+      <button class="card_button">open Article</button>
+      <button class="card_button">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="10px"
+          fill="white"
+        >
+          <title>heart</title>
+          <path
+            d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z"
+          />
+        </svg>
+      </button>
+    </article>
+
+    <article class="card">
+      <h2 class="card_headline">Card Title 2</h2>
+      <button class="card_button">open Article</button>
+      <button class="card_button card_button--active">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="10px"
+          fill="white"
+        >
+          <title>heart</title>
+          <path
+            d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z"
+          />
+        </svg>
+      </button>
+    </article>
   </body>
 </html>
